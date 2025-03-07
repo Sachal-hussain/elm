@@ -1,0 +1,36 @@
+# Ignore environment configuration files
+.htaccess
+.env.local
+
+# Ignore a specific folder in the root directory
+/assets/
+/cookies/
+/includes/
+/PHPMailer/
+
+# Ignore cache and logs
+/storage/
+bootstrap/cache/
+
+# Ignore database files
+*.sql
+*.sqlite
+
+
+# Ignore compiled assets
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore IDE/editor-specific files
+*.log
+*.bak
+*.swp
+*.swo
+*.vscode/
+*.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
